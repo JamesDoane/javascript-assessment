@@ -6,7 +6,10 @@
 */
 
 //CODE HERE
-
+function sum(a,b){
+  let sum = a+b
+  return sum;
+}
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +20,16 @@
 */
 
 //CODE HERE
-
+function greaterThanFive(number){
+  let yes
+  if(number > 5){
+    yes = true
+  }
+  else{
+    yes = false
+  }
+  return yes
+}
 //////////////////PROBLEM 3////////////////////
 /*
   Create a function called 'findZWords' that takes in one parameter, 'word'. 
@@ -27,7 +39,16 @@
 */
 
 //CODE HERE
-
+function findZWords(word){
+  let yes = "the name begins with Z"
+  let no = "the name does not begin with Z"
+  if(word[0] == 'Z'){
+    return yes
+  }
+  else {
+    return no
+  }
+}
 //////////////////PROBLEM 4////////////////////
 /*
   Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. 
@@ -36,3 +57,7 @@
 */
 
 //CODE HERE
+function iLove(name, love){
+  let trueLove = `${name} loves ${love}`
+  return trueLove
+}
